@@ -1,3 +1,5 @@
+document.querySelector('#player_pagefullscreen_yes_player').click();
+
 console.log(
     '%cbuild from PakePlus： https://github.com/Sjj1024/PakePlus',
     'color:orangered;font-weight:bolder'
@@ -29,3 +31,5 @@ window.open = function (url, target, features) {
 }
 
 document.addEventListener('click', hookClick, { capture: true })
+
+
